@@ -45,4 +45,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 
 	* _[Using Docker & WSL on your local host](/concepts/USING_DOCKER.md)_
 
+	* _[Integrating Prior Work](/concepts/PRINTF.md)_
+
 <br />
