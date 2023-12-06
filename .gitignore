@@ -1,0 +1,12 @@
+# everything
+*
+
+# except
+!.gitignore
+!*.c
+!*.h
+!*.md
+!AUTHORS
+!concepts
+!tests
+!0x*
