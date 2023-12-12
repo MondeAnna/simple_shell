@@ -12,13 +12,12 @@ int run(void)
 	while (TRUE)
 	{
 		prompt();
-
 		cmd = cmd_get();
 
 		if (!cmd)
 			exit(EXIT_FAILURE);
 
-		cmd_split(cmd, args);
+		args = cmd_split(cmd);
 		cmd_exec(args);
 
 		free(args);
