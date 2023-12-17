@@ -23,6 +23,8 @@ pid_t cmd_exec(char **args, char **environ)
 	}
 
 	wait(NULL);
+	fflush(stdout);
+	fflush(stdin);
 
 	return (process_id);
 }
